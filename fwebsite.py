@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sqlite3
 import os 
 
-
+#Hoi
 app = Flask(__name__)
 
 os.makedirs("instance", exist_ok=True)
